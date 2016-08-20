@@ -4,6 +4,8 @@ title:  "Locket of the Honey Goblins, part one"
 date:   2016-08-17 15:54:55 -0700
 categories: dungeonworld chronicle
 ---
+![Battle Image](/dw-chronicles/images/MunsterBattle.jpg) 
+
 > Welcome to the first adventure in this new campaign, and my first Dungeon World
 > game. I specifically looked for players who were curious about D&D but had never
 > played role playing games before, and for three of the four players they had
