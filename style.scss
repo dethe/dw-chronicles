@@ -9,18 +9,75 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+/* typography */
+
+@font-face {
+  font-family: "Essays 1743";
+  src: url("font/Essays1743.eot?") format("eot"), url("font/Essays1743.woff") format("woff"), url("font/Essays1743.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-weight: bold;
+  src: url("font/Essays1743-bold.eot?") format("eot"), url("font/Essays1743-bold.woff") format("woff"), url("font/Essays1743-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-style: italic;
+  src: url("font/Essays1743-italic.eot?") format("eot"), url("font/Essays1743-italic.woff") format("woff"), url("font/Essays1743-italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-style: italic;
+  font-weight: bold;
+  src: url("font/Essays1743-bold-italic.eot?") format("eot"), url("font/Essays1743-bold-italic.woff") format("woff"), url("font/Essays1743-bold-italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alphabet of Children";
+  src: url("font/Alphabet-of-Children.eot?") format("eot"), url("font/Alphabet-of-Children.woff") format("woff"), url("font/Alphabet-of-Children.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libertine";
+  src: url("font/Libertine.eot?") format("eot"), url("font/Libertine.woff") format("woff"), url("font/Libertine.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libertine";
+  font-weight: bold;
+  src: url("font/Libertine-bold.eot?") format("eot"), url("font/Libertine-bold.woff") format("woff"), url("font/Libertine-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libertine";
+  font-style: italic;
+  src: url("font/Libertine-italic.eot?") format("eot"), url("font/Libertine-italic.woff") format("woff"), url("font/Libertine-italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libertine";
+  font-style: italic;
+  font-weight: bold;
+  src: url("font/Libertine-bold-italic.eot?") format("eot"), url("font/Libertine-bold-italic.woff") format("woff"), url("font/Libertine-bold-italic.ttf") format("truetype");
+}
+
+
 /**************/
 /* BASE RULES */
 /**************/
 
 html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
   font-size: 100%;
 }
-
+html, body {
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  word-spacing: 0.1em;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 .container {
@@ -30,38 +87,31 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
+h1, h2, h3, h4, caption, thead th {
+  font-family: "Essays 1743", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px #667;
 }
-
 h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
+  font-size: 266.7%;
+  line-height: 1.1;
+  text-align: center;
+  width: 100%;
+  margin: 1.49em 0;
 }
-
 h2 {
-  font-size: 24px;
+  font-size: 210%;
+  line-height: 1.3125;
+  margin: 1.167em 0;
+  text-align: center;
+  clear: both;
 }
-
 h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  color: $gray;
+  font-size: x-large;
+  line-height: 1.167;
+  margin: 1.556em 0;
+  text-align: center;
 }
 
 p {
@@ -69,11 +119,14 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $darkGray;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
+  cursor: pointer;
+  &:hover, &active{
+      text-decoration: underline;
+  }
+  &:followed{
+      color: darkGray;
   }
 }
 
@@ -192,7 +245,6 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
