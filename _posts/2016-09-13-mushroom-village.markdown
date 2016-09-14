@@ -113,4 +113,4 @@ The two gargoyles on either side of Tsafnur grabbed him by the arms and flew off
 him against the walls as they clumsily flew up into the cracks of the ceiling.
 Chameleon transformed herself into a bat and followed them. The last remaining gargoyle
 clawed Clovis once across the back and flew off after its companions (and behind
-Chameleon). Things do not look good.
+Chameleon).
