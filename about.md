@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This chronicle is the summary of a story being created as a group. The players
+are:
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+* Chris as Wolfric Shadowfear the Cleric of Azure
+* Sara as Rook the Thief
+* Gloria Kalmar as Chameleon the Druid
+* Azlen Elza as Tsafnur the Bard
+* Sarah Felkar as Clovis the Barbarian
+* Melody Enkirash the Wizard
+* Marie Campbell Talisa the Ranger and Mija the Watersphinx (a type of cougar)
+* Dethe Elza as the Dungeon Master and Chronicler
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[@dethe](https://twitter.com/dethe)

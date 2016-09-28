@@ -4,7 +4,7 @@ title:  "Locket of the Honey Goblins, part two"
 date:   2016-09-12 15:54:55 -0700
 categories: dungeonworld chronicle
 ---
-![Battle Image](/dw-chronicles/images/waterfall.jpg)
+![Waterfall](/dw-chronicles/images/waterfall.jpg)
 
 *Continuing on from part one, this is the same session, the same night.*
 
